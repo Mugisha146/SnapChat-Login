@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    background-color: #fffc00;
+    height: 101px;
+    width: 430px;
+    position: relative;
+}
+
+.image {
+    position: absolute;
+    padding: 4rem;
+    margin-left: 50rem;
+    margin-right: 2rem;
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+}
+
+
+
+
+
+
+
+.rectangle4 {
+    background-color: #000000;
+    color: #fffc00; /* Text color */
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 55px;
+    width: 262px;
+}
+
+    
+    
+    
+    
+  
+
+
+.trouble-logging-in {
+    color: #000000;
+    text-align: left;
+    font-size: 10px;
+    font-family: HelveticaNeue;
+    position: absolute;
+    bottom: 20px;
+    left: 165px;
+    top: 314px;
+    width: 107px;
+    
+}
+
+/* Add other styles as needed */
+
+
+
+
+
+
+
+.welcome-back {
+    color: #000000;
+    text-align: left;
+    font-size: 24px;
+    font-family: HelveticaNeue;
+    position: absolute;
+    left: 116px;
+    top: 154px;
+}
+
+
+
+.sign-up {
+    text-align: left;
+    font-size: 10px;
+    font-family: HelveticaNeue;
+    position: absolute;
+    left: 118px;
+    top: 698px;
+    width: 194px;
+}
+
+.username-field {
+    width: 301.57px;
+    height: 21.82px;
+    top: 427.2px;
+    left: 64.21px;
+    position: absolute;
+}
+
+.username-or-email {
+    color: #bbbbbb;
+    text-align: left;
+    font-size: 12px;
+    font-family: HelveticaNeue;
+    position: absolute;
+    left: 64.78px;
+    top: 427.2px;
+    width: 147.92px;
+}
+
+.vector1{
+    width: 301.57px;
+    left: 64.21px;
+    top: 449.01px;
+    position: absolute;
+}
+
+.or3 {
+    color: #bbbbbb;
+    text-align: left;
+    font-size: 18px;
+    font-family: HelveticaNeue;
+    position: absolute;
+    left: 200px;
+    top: 363px;
+    width: 30px;
+}
+
+
+
+.rectangle5 {
+    background-color: #bbbbbb;
+    height: 55px;
+    width: 262px;
+    border-radius: 50px;
+    position: absolute;
+    top: 604px;
+    left: 85px;
+    text-align: center;
+}
+.login{
+    padding: .5em;
+    margin-top: 1em;
+}
+
+.login-via-google {
+    color: #fffc00;
+    text-align: left;
+    font-size: 18px;
+    font-family: HelveticaNeue;
+    position: absolute;
+    left: 132px;
+    top: 250px;
+    width: 168px;
+    height: 24px;
+}
+
+
+
+.top-section{
+    background-color: #fffc00;
+    height: 101px;
+    width: 430px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.password-field{
+    width: 301.57px;
+    height: 21.82px;
+    top: 498.4px;
+    left: 64.21px;
+    position: absolute;
+}
+
+.vector2 {
+    width: 301.57px;
+    left: 64.21px;
+    top: 520.21px;
+    position: absolute;
+}
+
+.password {
+    color: #bbbbbb;
+    text-align: left;
+    font-size: 12px;
+    font-family: HelveticaNeue;
+    position: absolute;
+    left: 64.78px;
+    top: 498.4px;
+    width: 80.27px;
+}
+
+.vector3 {
+    background-color: #000000;
+    height: 58px;
+    width: 58px;
+    position: absolute;
+    left: 347px;
+    top: 21px;
+}
+
+.forget-password {
+    color: #0c45d8;
+    text-align: left;
+    font-size: 10px;
+    font-family: HelveticaNeue;
+    position: absolute;
+    left: 282px;
+    top: 541px;
+    width: 84px;
+}
