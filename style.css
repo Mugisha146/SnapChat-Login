@@ -1,12 +1,35 @@
 body {
     font-family: Arial, sans-serif;
+    background: #fdfcfc;
     margin: 0;
     padding: 0;
+ 
+}
+.iphone1, .iphone2, .iphone3 {
+    background-color: #fff; 
+    width: calc(33.33% - 10px); 
+    position: relative;
+ 
+}
+
+.iphone1 {
+    margin-right: 2em; 
+
+}
+
+.iphone3 {
+    margin-left: 2em;
 }
 
 .top-section {
+    background-color: #fffc00;
+    height: 60px;
+    width: 60%;
+    margin: 3em;
+    margin-top: -3em;
+    margin-left: -3.8em;
     display: flex;
-    flex-direction: column;
+    flex-direction: row; 
     align-items: center;
     position: absolute;
     top: 50%;
@@ -14,31 +37,28 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.container {
-    background-color: #fffc00;
-    height: 101px;
-    width: 430px;
-    position: relative;
-}
 
 .image {
-    position: absolute;
-    padding: 4rem;
-    margin-left: 50rem;
-    margin-right: 2rem;
-    width: 50px; /* Adjust the width as needed */
-    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+    height: 60px;
+    width: auto; 
+    margin-left: auto; 
+    padding: .5em;
 }
 
 
-
-
-
-
-
-.rectangle4 {
+.container {
+    
+    height: 101px;
+    width: 100%;
+   padding: 5em;
+   padding-left: -2em;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.login-via-google-btn {
     background-color: #000000;
-    color: #fffc00; /* Text color */
+    color: #fffc00; 
     border: none;
     border-radius: 50px;
     padding: 10px 20px;
@@ -49,14 +69,8 @@ body {
     transform: translate(-50%, -50%);
     height: 55px;
     width: 262px;
+    margin-top: -10em;
 }
-
-    
-    
-    
-    
-  
-
 
 .trouble-logging-in {
     color: #000000;
@@ -68,18 +82,11 @@ body {
     left: 165px;
     top: 314px;
     width: 107px;
+    margin-top: -13em;
     
 }
 
-/* Add other styles as needed */
-
-
-
-
-
-
-
-.welcome-back {
+.welcome-head {
     color: #000000;
     text-align: left;
     font-size: 24px;
@@ -87,6 +94,8 @@ body {
     position: absolute;
     left: 116px;
     top: 154px;
+    margin-left: 1em;
+    margin-top: -5em;
 }
 
 
@@ -99,6 +108,9 @@ body {
     left: 118px;
     top: 698px;
     width: 194px;
+    margin-bottom: 5em;
+    margin-left: 1.8em;
+    margin-top: -14em;
 }
 
 .username-field {
@@ -107,24 +119,7 @@ body {
     top: 427.2px;
     left: 64.21px;
     position: absolute;
-}
-
-.username-or-email {
-    color: #bbbbbb;
-    text-align: left;
-    font-size: 12px;
-    font-family: HelveticaNeue;
-    position: absolute;
-    left: 64.78px;
-    top: 427.2px;
-    width: 147.92px;
-}
-
-.vector1{
-    width: 301.57px;
-    left: 64.21px;
-    top: 449.01px;
-    position: absolute;
+    margin-top: -11em;
 }
 
 .or3 {
@@ -136,23 +131,29 @@ body {
     left: 200px;
     top: 363px;
     width: 30px;
+    margin-top: -8em;
+    margin-left: -.5em;
 }
 
 
 
-.rectangle5 {
+
+.login{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: .5em;
+    margin-top: 1em;
     background-color: #bbbbbb;
     height: 55px;
-    width: 262px;
+    width: 240px;
     border-radius: 50px;
     position: absolute;
     top: 604px;
     left: 85px;
     text-align: center;
-}
-.login{
-    padding: .5em;
-    margin-top: 1em;
+    margin-top: -7em;
+    margin-left: .7em;
 }
 
 .login-via-google {
@@ -169,48 +170,13 @@ body {
 
 
 
-.top-section{
-    background-color: #fffc00;
-    height: 101px;
-    width: 430px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-}
-
 .password-field{
     width: 301.57px;
     height: 21.82px;
     top: 498.4px;
     left: 64.21px;
     position: absolute;
-}
-
-.vector2 {
-    width: 301.57px;
-    left: 64.21px;
-    top: 520.21px;
-    position: absolute;
-}
-
-.password {
-    color: #bbbbbb;
-    text-align: left;
-    font-size: 12px;
-    font-family: HelveticaNeue;
-    position: absolute;
-    left: 64.78px;
-    top: 498.4px;
-    width: 80.27px;
-}
-
-.vector3 {
-    background-color: #000000;
-    height: 58px;
-    width: 58px;
-    position: absolute;
-    left: 347px;
-    top: 21px;
+    margin-top: -11em;
 }
 
 .forget-password {
@@ -222,4 +188,5 @@ body {
     left: 282px;
     top: 541px;
     width: 84px;
+    margin-top: -15em;
 }
